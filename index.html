@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <section class="contato">
+            <h1 class="titulo">Ficou com dúvida?<br>Nos mande uma mensagem!</h1>
+            <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+
+        <section class="conteudo">
+
+            <form class="form" method="post">
+
+                <div class="ctn-input">
+                    <input type="text" class="input placeholder" name="nome" placeholder="Nome completo *">
+                    <p class="erro hidden-erro">campo obrigatório</p>
+                </div>
+
+                <div class="ctn-input">
+                    <input type="email" class="input placeholder" name="email" placeholder="Email *">
+                    <p class="erro hidden-erro">campo obrigatório</p>
+                </div>
+
+                <div class="ctn-input">
+                    <input type="text" class="input placeholder" name="telefone" placeholder="Telefone *">
+                    <p class="erro hidden-erro">campo obrigatório</p>
+                </div>
+
+                <div class="ctn-input">
+                    <textarea name="mensagem" class="input placeholder" placeholder="Mensagem *"></textarea>
+                    <p class="erro hidden-erro">campo obrigatório</p>
+                </div>
+
+                <p class="info">*campos obrigatórios</p>
+
+                <button type="submit" class="btn">Enviar</button>
+
+            </form>
+
+        </section>
+    </main>
+    <script src="./src/js/validacao.js" type="text/javascript"></script>
+    <!-- <script src="./src/js/index.js" type="text/javascript"></script> -->
+</body>
+
+</html>  

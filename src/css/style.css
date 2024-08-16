@@ -1,0 +1,129 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/bg-repeat.jpg);
+    background-repeat:repeat;
+    background-size: contain;
+    padding: 1.2rem 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    width: 80rem;
+    
+}
+
+.main .contato{
+    margin-right: 6rem;
+}
+
+.main .contato .titulo{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.1rem;
+}
+
+.main .contato .texto{
+    color: #fff;
+}
+
+.conteudo .form{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.6rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.form .ctn-input{
+    margin-bottom: 1rem;
+}
+
+.form .ctn-input .input{
+    min-width: 30rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #000;
+}
+
+.form .ctn-input textarea{
+    resize: none;
+    height: 10rem;
+}
+
+.form .info{
+    margin-left: -0.8rem;
+    margin-bottom: 1rem;
+}
+
+.form .btn{
+    width: 100%;
+    padding: 1.2rem;
+    color: #fff;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.form .btn:hover{
+    background-color: #0de23b;
+}
+
+/* === Tags para o JS === */
+.form .ctn-input .placeholder{
+    font-weight: 700;   
+}
+
+.form .ctn-input .invalido{
+    border: 0.1rem solid #F52E2E;
+}
+
+.form .ctn-input .valido{
+    border: 0.1rem solid #00C22B ;
+}
+
+.form .ctn-input .erro{
+    font-size: 1rem;
+    color: #F52E2E;
+}
+
+.form .ctn-input .hidden-erro{
+    display: none;
+}
+
+/* === Responsivo === */
+@media(max-width: 700px){
+
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main .contato{
+        margin-bottom: 5rem;
+        margin-right: 0;
+    }
+
+    .main .contato .titulo{
+        text-align: center;
+    }
+
+    .main .contato .texto{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .conteudo{
+        margin: 0 2rem;
+    }
+
+}
