@@ -35,8 +35,8 @@
 
 ### Links 📌
 <ul>
-<li><a href="https://github.com/Igor0liveira/Landing-Page-HUDDLE">Repositório</a></li>
-<li><a href="https://igor0liveira.github.io/Landing-Page-HUDDLE/" target="_blank">Site ao vivo</a></li>
+<li><a href="https://github.com/Igor0liveira/validacao-de-formulario">Repositório</a></li>
+<li><a href="https://igor0liveira.github.io/validacao-de-formulario/" target="_blank">Deploy</a></li>
 </ul>
 
 ## O que eu aprendi 📚
